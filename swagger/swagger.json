@@ -5,7 +5,7 @@
         "title": "User API",
         "description": "User Management API"
     },
-    "host": "https://nodejs-swagger-manthanank.vercel.app",
+    "host": "localhost:3000",
     "basePath": "/api/",
     "paths": {
         "/users": {
