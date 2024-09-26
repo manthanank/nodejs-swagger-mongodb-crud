@@ -5,16 +5,7 @@
         "title": "User API",
         "description": "User Management API"
     },
-    "servers": [
-        {
-            "url": "http://localhost:3000",
-            "description": "Local server"
-        },
-        {
-            "url": "https://nodejs-swagger-manthanank.vercel.app",
-            "description": "Production server"
-        }
-    ],
+    "host": "https://nodejs-swagger-manthanank.vercel.app",
     "basePath": "/api/",
     "paths": {
         "/users": {
