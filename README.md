@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
 ## Project Structure
 
 ```bash
-nodejs-swagger/
+nodejs-swagger-mongodb-crud/
 │
 ├── config/
 │   └── database.js        # MongoDB connection setup
