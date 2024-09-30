@@ -1,4 +1,4 @@
-# Node.js CRUD API with Swagger Documentation
+# Node.js CRUD API with Swagger Documentation using MongoDB
 
 This project is a simple CRUD API built using Node.js, Express, and MongoDB, with Swagger for API documentation. The API allows users to create, read, update, and delete users in the system.
 
@@ -25,13 +25,13 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/manthanank/nodejs-swagger.git
+    git clone https://github.com/manthanank/nodejs-swagger-mongodb-crud.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd nodejs-swagger
+    cd nodejs-swagger-mongodb-crud
     ```
 
 3. **Install dependencies**:
@@ -67,7 +67,7 @@ nodejs-swagger/
 │   └── userRoutes.js      # Routes for CRUD operations
 ├── swagger/
 │   └── swagger.json       # Swagger documentation setup
-├── app.js                 # Entry point to initialize the app
+├── index.js                 # Entry point to initialize the app
 ├── package.json           # Node.js dependencies
 ├── .env                   # Environment variables
 |── .env.example           # Example environment variables
@@ -104,7 +104,7 @@ nodejs-swagger/
 The API documentation is provided through Swagger and can be accessed at:
 
 ```bash
-http://localhost:3000/api/api-docs
+http://localhost:3000/api-docs
 ```
 
 This provides an interactive interface to try out API requests, view request/response formats, and see detailed documentation for each endpoint.
@@ -113,7 +113,7 @@ This provides an interactive interface to try out API requests, view request/res
 
 You can interact with the API via:
 
-- **Swagger UI** at `http://localhost:3000/api/api-docs`
+- **Swagger UI** at `http://localhost:3000/api-docs`
 - **Postman** or **cURL** by sending HTTP requests to `http://localhost:3000/api/users`
 
 ### Example: Create a User via cURL

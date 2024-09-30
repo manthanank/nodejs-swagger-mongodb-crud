@@ -21,12 +21,12 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Swagger setup
-app.use("/api/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // API routes
 app.get("/", (req, res) => {
   res.send(
-    "API is running... Do you want to see the API documentation? Go to /api/api-docs"
+    "API is running... Do you want to see the API documentation? Go to /api-docs"
   );
 });
 
